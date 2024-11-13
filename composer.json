@@ -1,11 +1,11 @@
 {
-    "name": "riley/auth-admin-approver",
-    "description": "",
+    "name": "riley/admin-approver",
+    "description": "Laravel package to manage admin approval flow for new users",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "YourVendor\\YourPackage\\": "src/"
+            "Riley\\AdminApprover\\": "src/"
         }
     },
     "authors": [
@@ -14,9 +14,17 @@
             "email": "your.email@example.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.4|^8.0",
         "illuminate/support": "^8.0|^9.0|^10.0"
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Riley\\AdminApprover\\AdminApproverServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
