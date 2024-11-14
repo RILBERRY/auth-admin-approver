@@ -10,13 +10,14 @@
     },
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your.email@example.com"
+            "name": "Ali Rilwan",
+            "email": "a.rilwan@nehtha.com"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0|^9.0|^10.0"
+        "php": "^8.0",
+        "illuminate/auth": "^8.12|^9.0|^10.0|^11.0",
+        "illuminate/database": "^8.12|^9.0|^10.0|^11.0"
     },
     "extra": {
         "laravel": {
