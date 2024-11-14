@@ -10,3 +10,4 @@ Route::group([
         return view('admin-approver::waiting-admin-approval');
     })->name('admin.approval.waiting');
 });
+

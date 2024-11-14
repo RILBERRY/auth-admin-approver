@@ -5,7 +5,7 @@ namespace Riley\AdminApprover\Middleware;
 use Closure;
 use Illuminate\Http\Request;
 
-class AdminAuthorizedCompleted
+class AdminAuthorized
 {
     public function handle(Request $request, Closure $next)
     {
