@@ -17,6 +17,8 @@
     "require": {
         "php": "^8.0",
         "illuminate/auth": "^8.12|^9.0|^10.0|^11.0",
+        "spatie/laravel-permission": "^6.0",
+         "wire-elements/modal": "^2.0",
         "illuminate/database": "^8.12|^9.0|^10.0|^11.0"
     },
     "extra": {

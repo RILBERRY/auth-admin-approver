@@ -2,14 +2,17 @@
 
 return [
     'home' => '/',
-    'waiting_route' => '/waiting-admin-approve',
+    'waiting_route' => '/waiting-admin-approve', //add prefix if define
     'middleware' => ['web', 'auth'],
     'routes' => [
         'enabled' => true,
-        'prefix' => 'admin',
+        'prefix' => '',
         'middleware' => ['web', 'auth']
     ],
     'views' => [
-        'layout' => 'layouts.app'
+        'waiting' => 'waiting-admin-approval',
+        'roles' => [
+            'layout'=>'layout.main'
+        ]
     ]
 ];
