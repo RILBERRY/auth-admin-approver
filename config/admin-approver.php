@@ -10,6 +10,9 @@ return [
         'middleware' => ['web', 'auth']
     ],
     'views' => [
-        'waiting' => 'waiting-admin-approval'
+        'waiting' => 'waiting-admin-approval',
+        'roles' => [
+            'layout'=>'layout.main'
+        ]
     ]
 ];
